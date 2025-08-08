@@ -1,0 +1,45 @@
+[project]
+name = "undoom-douyin-data-analysis"
+version = "0.1.2"
+description = "抖音数据分析 MCP 服务器 - 提供抖音视频和用户数据的采集、分析和导出功能"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "undoom", email = "kaikaihuhu666@163.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+keywords = ["mcp", "douyin", "tiktok", "data-analysis", "web-scraping"]
+dependencies = [
+    "mcp[cli]>=1.12.4",
+    "DrissionPage>=4.0.0",
+    "beautifulsoup4>=4.12.0",
+    "pandas>=2.0.0",
+    "jieba>=0.42.1",
+    "openpyxl>=3.1.0",
+    "lxml>=4.9.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+undoom-douyin-mcp = "undoom_douyin_data_analysis.douyin_mcp_server:cli_main"
+
+[project.urls]
+Homepage = "https://github.com/undoom/douyin-data-analysis"
+Repository = "https://github.com/undoom/douyin-data-analysis"
+Issues = "https://github.com/undoom/douyin-data-analysis/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"

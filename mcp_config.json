@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "undoom-douyin-data-analysis": {
+      "command": "uvx",
+      "args": [
+        "--index-url",
+        "https://pypi.tuna.tsinghua.edu.cn/simple",
+        "--from",
+        "undoom-douyin-data-analysis",
+        "undoom-douyin-mcp"
+      ]
+    }
+  }
+}
