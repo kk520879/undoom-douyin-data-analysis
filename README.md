@@ -134,7 +134,7 @@
 ## 项目信息
 
 - **PyPI 包**: [undoom-douyin-data-analysis](https://pypi.org/project/undoom-douyin-data-analysis/)
-- **版本**: 0.1.2
+- **版本**: 0.1.3
 - **许可证**: MIT License
 - **Python 版本**: 3.13+
 

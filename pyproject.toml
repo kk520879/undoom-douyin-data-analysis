@@ -33,9 +33,9 @@ dependencies = [
 undoom-douyin-mcp = "undoom_douyin_data_analysis.douyin_mcp_server:cli_main"
 
 [project.urls]
-Homepage = "https://github.com/undoom/douyin-data-analysis"
-Repository = "https://github.com/undoom/douyin-data-analysis"
-Issues = "https://github.com/undoom/douyin-data-analysis/issues"
+Homepage = "https://github.com/kk520879/undoom-douyin-data-analysis"
+Repository = "https://github.com/kk520879/undoom-douyin-data-analysis"
+Issues = "https://github.com/kk520879/undoom-douyin-data-analysis/issues"
 
 [build-system]
 requires = ["hatchling"]
